@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+a,
+li,
+textarea {
+  outline: none;
+}
+
+a,
+li {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+li:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.active {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+textarea {
+  resize: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.container {
+  margin: 40px 30px 0px 30px;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container .header__navi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container .header__navi_list li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container .calendar {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px 0px 10px 20px;
+}
+
+.container .calendar__month_list,
+.container .calendar__month li {
+  margin: 0;
+  padding: 0;
+}
+
+.container .calendar__month_list {
+  padding-top: 10px;
+}
+
+.container .calendar__month_list li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container .calendar__data {
+  margin-top: 20px;
+  font-size: 10px;
+}
